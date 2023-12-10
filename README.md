@@ -1,1 +1,1 @@
-Recreating x(twittedr webpage) for practice
+Recreating X(Twitter webpage) for practice
