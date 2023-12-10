@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: black;
+}
+
+
+/* user container*/
+
+.user {
+    background-color: black
+;
+    position: absolute;
+    right: 400px;
+    width: 400px;
+    height: 350px;
+    border: 1px solid slategray;
+}
+
+/*topButtons*/
+
+.topBar{
+    position: sticky;
+    top: -10;
+    color: slategray;
+    border: 1px slategray;
+    width: 500px;
+    height: 100px;
+    background-color: transparent;
+}
+.backButton{
+    display: block;
+    text-align: center;
+    border: 1px slategray;
+    float: left;
+    width: 50px;
+    font-size: large;
+    color: slategray;
+    background-color: transparent;
+}
+
+.backButton :hover{
+    background-color: white;
+}
+
+.name{
+    display: block;
+    text-align: left;
+    border: 2px slategray;
+    float: left;
+    width: 360.6px;
+    gap: 1000px;
+}
+.postcount{
+
+    font-size:xx-small;
+}
+
+
+/*profile container*/
+
+.background{
+    position: absolute;
+    top:0%;
+    height: 150px;
+    width: 400px;
+    background-color: black;
+    border: 3px white;
+    z-index: -1;
+}
+/*bio/ profile details*/
+
+.bio{
+    position: absolute;
+
+    height: 200px;
+    width:  400px;
+    background-color: red;
+    z-index: 0;
+}
+
+.followButton{
+    position: absolute;
+    border-radius: 16px;
+    border: 1px white;
+    text-align: center;
+    width: 60px;
+    height: 25px;
+    right: 10px;
+    top: 5px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+}
+
+
+
+/*profile picture*/
+
+.propic{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background-color: white;
+    z-index: 3;
+    top: 50px;
+    left: 15px;;
+
+}
+
+
+
+
+/*Links tags*/
+a{
+    text-decoration: none;
+    outline: none;
+    color: slategray;
+}che
+
+li{
+    list-style-type: none;
+}
+
+/*barButtons*/
+
+.bar{
+    position: absolute;
+    bottom: 20px;
+    background-color: black;
+}
+
+.barButtons{
+    display: block;
+    gap: 50px;
+    text-align: center;
+    width: 100px;
+    float:left;
+    color: slategrey;
+    font-size: small;
+    background-color: black;
+    border: black;
+}
+
